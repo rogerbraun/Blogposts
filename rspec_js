@@ -1,0 +1,17 @@
+# Here's the backstory.
+
+I noticed that Codebrawl(codebrawl.com) does not yet support Github Flavored Markdown(http://github.github.com/github-flavored-markdown/) in Gist comments. Gist comments are loaded client-side via the Gist API and then rendered with showdown.js(https://github.com/coreyti/showdown). Showdown is a great project, but it does not support the extensions Github uses. This really sucks for comments which contain code, as they are rendered as regular Markdown-style code spans, which ignores newlines and indentation and makes them completely unreadable.
+
+So I forked the project, added the necessary 30 lines of code and made a pull request. I "tested" my code the stupid way: Look at the output in the browser. This made me feel somewhat uneasy. I want this code to be useful, but how should anyone know that I did not break anything? I decided to add some tests. I have done testing in other languages, but never in Javascript. How do you do this?
+
+# Testing your Javascript 
+
+So you want to test your cool JS code. 
+
+Something about testing in-browser.
+
+Something about Jasmine.
+
+# RSpec lookalike in 30 lines
+
+I like the 
